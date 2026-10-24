@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Schallemissionsprüfung statt Wasserdruckprüfung? | CyTec Wissen</title>
+<meta name="description" content="Schallemissionsprüfung (AT) erklärt: Funktionsweise, Vorteile gegenüber der Wasserdruckprüfung, Grenzen und Einsatzfälle — vom CyTec-Prüfwerk.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Ist die Schallemissionsprüfung genauso sicher wie die Wasserdruckprüfung?", "acceptedAnswer": {"@type": "Answer", "text": "Ja — für zugelassene Anwendungsfälle ist sie sicherheitstechnisch gleichwertig anerkannt und liefert zusätzlich eine Ortung aktiver Fehlstellen, die die Druckprüfung nicht bietet."}}, {"@type": "Question", "name": "Für welche Behälter lohnt sich AT besonders?", "acceptedAnswer": {"@type": "Answer", "text": "Für Flotten mit hohem Durchsatz (Standzeitgewinn), für Gase mit strengen Feuchteanforderungen (O₂, H₂, Spezialgase) und für Composite-Behälter, bei denen ZfP ohnehin Standard ist."}}, {"@type": "Question", "name": "Bietet CyTec die Schallemissionsprüfung an?", "acceptedAnswer": {"@type": "Answer", "text": "Ja, im Rahmen unserer NDT-Kompetenz. Unsere Prüfabteilung bewertet Ihre Flotte und integriert AT-Prüfungen in Ihre Umlaufplanung."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "Schallemissionsprüfung statt Wasserdruckprüfung?", "datePublished": "2026-07-15", "author": {"@type": "Organization", "name": "CyTec Mönchengladbach GmbH & Co. KG"}}</script>
+</head>
+<body>
+<canvas id="fluid"></canvas>
+<div id="glow"></div>
+<div id="progress"></div>
+<div id="page">
+
+<nav class="main" id="nav">
+  <div class="nav-inner">
+    <a class="logo" href="../index.html"><img src="../assets/media/cytec-logo.png" alt="CyTec Mönchengladbach — Cylinder Technologies"></a>
+    <ul class="nav-links" id="navlinks">
+      <li class="has-sub"><a href="#">Produkte ▾</a>
+        <ul class="sub">
+          <li class="subhead">Herstellung</li>
+          <li><a href="../produkte/flaschenbuendel.html">Druckgasflaschenbündel</a></li>
+          <li><a href="../produkte/gasetrailer.html">Gasetrailer / Tube Trailer</a></li>
+          <li><a href="../produkte/hd-leitungssysteme.html">HD-Leitungssysteme</a></li>
+          <li><a href="../produkte/engineering.html">Engineering &amp; Sonderbau</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#">Prüfung &amp; Service ▾</a>
+        <ul class="sub">
+          <li><a href="../pruefung/druckbehaelterpruefung.html">Flaschen- &amp; Behälterprüfung</a></li>
+          <li><a href="../pruefung/ndt.html">NDT — Zerstörungsfreie Prüfung</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#">Wissen ▾</a>
+        <ul class="sub">
+          <li><a href="../wissen/news.html">News</a></li>
+          <li><a href="../wissen/ratgeber.html">Ratgeber</a></li>
+          <li><a href="../wissen/glossar.html">Glossar Hochdrucktechnik</a></li>
+          <li><a href="../wissen/faq.html">FAQ</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#">Unternehmen ▾</a>
+        <ul class="sub">
+          <li><a href="../ueber-uns.html">Über uns</a></li>
+          <li><a href="../index.html#usp">Warum CyTec</a></li>
+          <li><a href="../karriere.html">Karriere</a></li>
+        </ul>
+      </li>
+      <li><a href="../kontakt.html">Kontakt</a></li>
+    </ul>
+    <a class="btn small nav-cta" href="../kontakt.html">Angebot anfragen</a>
+    <button id="burger" aria-label="Menü"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="../index.html">Start</a><span class="sep">/</span><a href="ratgeber.html">Wissen</a><span class="sep">/</span>Schallemission</div>
+    <div class="kicker">Ratgeber · Juli 2026</div>
+    <h1>Schallemissionsprüfung statt Wasserdruckprüfung?</h1>
+    <p class="sub"></p>
+  </div>
+</header>
+<section class="section tight"><div class="wrap"><div class="article io">
+<p class="lead">Prüfen ohne Wasser: Die Schallemissionsprüfung spart Trocknungszeit und schützt die Gasqualität. So funktioniert sie — und hier liegen ihre Grenzen.</p>
+
+<h2>Die Kurzantwort</h2>
+<p>Die <strong>Schallemissionsprüfung (AT)</strong> ersetzt für viele Behälterarten die klassische Wasserdruckprüfung: Der Behälter wird unter Druckbeaufschlagung mit hochempfindlichen Sensoren „abgehört“ — wachsende Fehlstellen verraten sich durch charakteristische Schallsignale. Der Praxisvorteil: <strong>kein Wasser im Behälter</strong>, keine Trocknungszeit, kein Kontaminationsrisiko, kürzere Standzeiten.</p>
+<h2>So funktioniert das Verfahren</h2>
+<ol>
+<li>Sensoren werden an definierten Punkten des Behälters angebracht</li>
+<li>Der Behälter wird kontrolliert mit Druck beaufschlagt (i. d. R. gasförmig)</li>
+<li>Aktive Fehlstellen — z. B. wachsende Risse — emittieren Körperschall</li>
+<li>Die Software ortet die Quellen und bewertet sie nach zugelassenen Kriterien</li>
+<li>Ergebnis: dokumentierte Freigabe oder gezielte Nachuntersuchung der auffälligen Zone</li>
+</ol>
+<h2>Wasserdruck vs. Schallemission</h2>
+<table>
+<tr><th>Kriterium</th><th>Wasserdruckprüfung</th><th>Schallemissionsprüfung</th></tr>
+<tr><td>Medium</td><td>Wasser (Befüllung/Entleerung)</td><td>Gas — Behälter bleibt trocken</td></tr>
+<tr><td>Trocknungszeit</td><td>erforderlich</td><td>entfällt</td></tr>
+<tr><td>Kontaminationsrisiko</td><td>vorhanden (kritisch bei O₂, H₂, Spezialgasen)</td><td>keines</td></tr>
+<tr><td>Aussage</td><td>Festigkeitsnachweis</td><td>Zustandsbewertung + Ortung aktiver Fehlstellen</td></tr>
+<tr><td>Standzeit je Behälter</td><td>länger</td><td>deutlich kürzer</td></tr>
+</table>
+<h2>Wo die Grenzen liegen</h2>
+<p>Die Schallemissionsprüfung ist nicht für jede Bauart und jeden Prüfanlass zugelassen; maßgeblich sind Regelwerk und Baumuster. Seriös ist deshalb nur die Einzelfallbewertung: Wir prüfen, ob Ihre Flotte AT-fähig ist — und rechnen den Standzeit- und Kostenvorteil konkret vor.</p>
+<div class="sec-head io" style="margin-top:60px"><h2>Häufige Fragen</h2></div><div class="faq"><details><summary>Ist die Schallemissionsprüfung genauso sicher wie die Wasserdruckprüfung?</summary><p>Ja — für zugelassene Anwendungsfälle ist sie sicherheitstechnisch gleichwertig anerkannt und liefert zusätzlich eine Ortung aktiver Fehlstellen, die die Druckprüfung nicht bietet.</p></details><details><summary>Für welche Behälter lohnt sich AT besonders?</summary><p>Für Flotten mit hohem Durchsatz (Standzeitgewinn), für Gase mit strengen Feuchteanforderungen (O₂, H₂, Spezialgase) und für Composite-Behälter, bei denen ZfP ohnehin Standard ist.</p></details><details><summary>Bietet CyTec die Schallemissionsprüfung an?</summary><p>Ja, im Rahmen unserer NDT-Kompetenz. Unsere Prüfabteilung bewertet Ihre Flotte und integriert AT-Prüfungen in Ihre Umlaufplanung.</p></details></div>
+</div></div></section>
+<section class="cta">
+  <h2>Ihr Projekt. Unser Druck.</h2>
+  <p>Beschreiben Sie uns Ihre Anforderung — Gasart, Druckstufe, Stückzahl. Sie erhalten innerhalb von 48 Stunden eine qualifizierte Rückmeldung unserer Ingenieure.</p>
+  <a class="btn" href="../kontakt.html">Angebot anfragen</a>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="../index.html"><img src="../assets/media/cytec-logo.png" alt="CyTec Mönchengladbach — Cylinder Technologies"></a>
+        <p style="color:var(--muted);font-size:.9rem;margin-top:18px;max-width:32ch">CyTec Mönchengladbach GmbH &amp; Co. KG<br>Lehmkuhlenweg 13<br>41065 Mönchengladbach</p>
+      </div>
+      <div>
+        <h4>Produkte</h4>
+        <ul>
+          <li><a href="../produkte/flaschenbuendel.html">Druckgasflaschenbündel</a></li>
+          <li><a href="../produkte/gasetrailer.html">Gasetrailer / Tube Trailer</a></li>
+          <li><a href="../produkte/hd-leitungssysteme.html">HD-Leitungssysteme</a></li>
+          <li><a href="../produkte/engineering.html">Engineering &amp; Sonderbau</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Prüfung &amp; Wissen</h4>
+        <ul>
+          <li><a href="../pruefung/druckbehaelterpruefung.html">Behälterprüfung</a></li>
+          <li><a href="../pruefung/ndt.html">NDT-Prüfung</a></li>
+          <li><a href="../wissen/ratgeber.html">Ratgeber</a></li>
+          <li><a href="../wissen/glossar.html">Glossar</a></li>
+          <li><a href="../wissen/faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="../ueber-uns.html">Über uns</a></li>
+          <li><a href="../karriere.html">Karriere</a></li>
+          <li><a href="tel:021616590729">02161 - 659 07 29</a></li>
+          <li><a href="mailto:info@cytec-mg.de">info@cytec-mg.de</a></li>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 CyTec Mönchengladbach GmbH &amp; Co. KG — hervorgegangen aus dem Prüfwerk Kessels</span>
+      <span>PED/TPED-zertifiziert · Made in Germany</span>
+    </div>
+  </div>
+</footer>
+</div>
+<script src="../assets/js/site.js"></script>
+<script src="../assets/js/fluid.js" data-loader="off"></script>
+</body>
+</html>

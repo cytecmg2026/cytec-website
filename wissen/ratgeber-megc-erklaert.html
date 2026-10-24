@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>MEGC einfach erklärt: Aufbau, Einsatz, Zulassung | CyTec Wissen</title>
+<meta name="description" content="Was ist ein MEGC? Aufbau, Abgrenzung zu Bündel und Tube Trailer, TPED/ADR-Zulassung und Einsatz im Wasserstoff-Transport — kompakt erklärt.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../assets/css/main.css">
+<script type="application/ld+json">{"@context": "https://schema.org", "@type": "FAQPage", "mainEntity": [{"@type": "Question", "name": "Ist ein MEGC dasselbe wie ein Tube Trailer?", "acceptedAnswer": {"@type": "Answer", "text": "Nein. Der MEGC ist ein (ab)setzbarer Container mit mehreren Druckelementen für den multimodalen Transport; der Tube Trailer ist ein Sattelauflieger mit fest verbauten Elementen für die Straße. CyTec baut beide."}}, {"@type": "Question", "name": "Welche Zulassung braucht ein MEGC?", "acceptedAnswer": {"@type": "Answer", "text": "Die Zulassung erfolgt nach TPED in Verbindung mit den Bauvorschriften des ADR (Kapitel 6.7/6.2 je nach Bauart); der Container trägt das Pi-Zeichen und wird wiederkehrend geprüft."}}, {"@type": "Question", "name": "Baut CyTec MEGC auch für Wasserstoff?", "acceptedAnswer": {"@type": "Answer", "text": "Ja — inklusive 300-bar-Auslegung, H₂-tauglicher Werkstoffe und Ventiltechnik sowie kompletter Zulassungsdokumentation."}}]}</script><script type="application/ld+json">{"@context": "https://schema.org", "@type": "Article", "headline": "MEGC einfach erklärt: Aufbau, Einsatz, Zulassung", "datePublished": "2026-07-15", "author": {"@type": "Organization", "name": "CyTec Mönchengladbach GmbH & Co. KG"}}</script>
+</head>
+<body>
+<canvas id="fluid"></canvas>
+<div id="glow"></div>
+<div id="progress"></div>
+<div id="page">
+
+<nav class="main" id="nav">
+  <div class="nav-inner">
+    <a class="logo" href="../index.html"><img src="../assets/media/cytec-logo.png" alt="CyTec Mönchengladbach — Cylinder Technologies"></a>
+    <ul class="nav-links" id="navlinks">
+      <li class="has-sub"><a href="#">Produkte ▾</a>
+        <ul class="sub">
+          <li class="subhead">Herstellung</li>
+          <li><a href="../produkte/flaschenbuendel.html">Druckgasflaschenbündel</a></li>
+          <li><a href="../produkte/gasetrailer.html">Gasetrailer / Tube Trailer</a></li>
+          <li><a href="../produkte/hd-leitungssysteme.html">HD-Leitungssysteme</a></li>
+          <li><a href="../produkte/engineering.html">Engineering &amp; Sonderbau</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#">Prüfung &amp; Service ▾</a>
+        <ul class="sub">
+          <li><a href="../pruefung/druckbehaelterpruefung.html">Flaschen- &amp; Behälterprüfung</a></li>
+          <li><a href="../pruefung/ndt.html">NDT — Zerstörungsfreie Prüfung</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#">Wissen ▾</a>
+        <ul class="sub">
+          <li><a href="../wissen/news.html">News</a></li>
+          <li><a href="../wissen/ratgeber.html">Ratgeber</a></li>
+          <li><a href="../wissen/glossar.html">Glossar Hochdrucktechnik</a></li>
+          <li><a href="../wissen/faq.html">FAQ</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#">Unternehmen ▾</a>
+        <ul class="sub">
+          <li><a href="../ueber-uns.html">Über uns</a></li>
+          <li><a href="../index.html#usp">Warum CyTec</a></li>
+          <li><a href="../karriere.html">Karriere</a></li>
+        </ul>
+      </li>
+      <li><a href="../kontakt.html">Kontakt</a></li>
+    </ul>
+    <a class="btn small nav-cta" href="../kontakt.html">Angebot anfragen</a>
+    <button id="burger" aria-label="Menü"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="../index.html">Start</a><span class="sep">/</span><a href="ratgeber.html">Wissen</a><span class="sep">/</span>MEGC erklärt</div>
+    <div class="kicker">Ratgeber · Juli 2026</div>
+    <h1>MEGC einfach erklärt: Aufbau, Einsatz, Zulassung</h1>
+    <p class="sub"></p>
+  </div>
+</header>
+<section class="section tight"><div class="wrap"><div class="article io">
+<p class="lead">Multiple-Element Gas Container sind das Arbeitspferd des Gastransports — und der Schlüssel zum Wasserstoff-Hochlauf. So funktionieren sie.</p>
+
+<h2>Die Kurzantwort</h2>
+<p>Ein <strong>MEGC (Multiple-Element Gas Container)</strong> ist ein Gascontainer aus mehreren fest verbundenen Druckelementen — Flaschen, Großflaschen oder Tubes — mit gemeinsamer Sammelverrohrung auf einem Rahmen. Er ist nach TPED/ADR für den multimodalen Transport zugelassen und die Standardlösung, wenn große Gasmengen flexibel per LKW, Bahn oder Schiff bewegt werden müssen.</p>
+<h2>Aufbau eines MEGC</h2>
+<ul>
+<li><strong>Druckelemente:</strong> je nach Bauart Stahlflaschen, Tubes oder Leichtbau-Composite-Behälter (Typ 3/4)</li>
+<li><strong>Rahmen:</strong> ISO-Container-Maße oder Sonderrahmen — stapelbar, kranbar, twistlock-fähig</li>
+<li><strong>Sammelverrohrung:</strong> verbindet die Elemente; mit Absperr-, Sicherheits- und Entnahmearmaturen</li>
+<li><strong>Sicherheitstechnik:</strong> Berstscheiben/Sicherheitsventile, Erdung, Kennzeichnung nach ADR</li>
+</ul>
+<h2>MEGC, Bündel oder Tube Trailer — was passt wann?</h2>
+<table>
+<tr><th>Kriterium</th><th>Flaschenbündel</th><th>MEGC</th><th>Tube Trailer</th></tr>
+<tr><td>Typische Menge</td><td>bis ~200 Nm³</td><td>mehrere hundert bis tausende Nm³</td><td>höchste Kapazität</td></tr>
+<tr><td>Transport</td><td>auf Ladefläche</td><td>multimodal (Straße/Schiene/See)</td><td>Straße, als Auflieger</td></tr>
+<tr><td>Handling</td><td>Stapler/Kran</td><td>Containerumschlag</td><td>Zugmaschine</td></tr>
+<tr><td>Ideal für</td><td>dezentrale Versorgung</td><td>Export, intermodale Ketten, H₂-Projekte</td><td>Pendelverkehre mit hohem Volumen</td></tr>
+</table>
+<h2>MEGC für Wasserstoff</h2>
+<p>Für den H₂-Hochlauf sind MEGC das Arbeitspferd: Sie verbinden hohe Kapazität mit Container-Logistik — vom Elektrolyseur zur Tankstelle, in den Hafen oder zur Bunkerung von Schiffen. CyTec-Systeme sind hierfür bereits im europäischen Einsatz, unter anderem in der Green-Hydrogen-Bunkerung.</p>
+<div class="sec-head io" style="margin-top:60px"><h2>Häufige Fragen</h2></div><div class="faq"><details><summary>Ist ein MEGC dasselbe wie ein Tube Trailer?</summary><p>Nein. Der MEGC ist ein (ab)setzbarer Container mit mehreren Druckelementen für den multimodalen Transport; der Tube Trailer ist ein Sattelauflieger mit fest verbauten Elementen für die Straße. CyTec baut beide.</p></details><details><summary>Welche Zulassung braucht ein MEGC?</summary><p>Die Zulassung erfolgt nach TPED in Verbindung mit den Bauvorschriften des ADR (Kapitel 6.7/6.2 je nach Bauart); der Container trägt das Pi-Zeichen und wird wiederkehrend geprüft.</p></details><details><summary>Baut CyTec MEGC auch für Wasserstoff?</summary><p>Ja — inklusive 300-bar-Auslegung, H₂-tauglicher Werkstoffe und Ventiltechnik sowie kompletter Zulassungsdokumentation.</p></details></div>
+</div></div></section>
+<section class="cta">
+  <h2>Ihr Projekt. Unser Druck.</h2>
+  <p>Beschreiben Sie uns Ihre Anforderung — Gasart, Druckstufe, Stückzahl. Sie erhalten innerhalb von 48 Stunden eine qualifizierte Rückmeldung unserer Ingenieure.</p>
+  <a class="btn" href="../kontakt.html">Angebot anfragen</a>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="../index.html"><img src="../assets/media/cytec-logo.png" alt="CyTec Mönchengladbach — Cylinder Technologies"></a>
+        <p style="color:var(--muted);font-size:.9rem;margin-top:18px;max-width:32ch">CyTec Mönchengladbach GmbH &amp; Co. KG<br>Lehmkuhlenweg 13<br>41065 Mönchengladbach</p>
+      </div>
+      <div>
+        <h4>Produkte</h4>
+        <ul>
+          <li><a href="../produkte/flaschenbuendel.html">Druckgasflaschenbündel</a></li>
+          <li><a href="../produkte/gasetrailer.html">Gasetrailer / Tube Trailer</a></li>
+          <li><a href="../produkte/hd-leitungssysteme.html">HD-Leitungssysteme</a></li>
+          <li><a href="../produkte/engineering.html">Engineering &amp; Sonderbau</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Prüfung &amp; Wissen</h4>
+        <ul>
+          <li><a href="../pruefung/druckbehaelterpruefung.html">Behälterprüfung</a></li>
+          <li><a href="../pruefung/ndt.html">NDT-Prüfung</a></li>
+          <li><a href="../wissen/ratgeber.html">Ratgeber</a></li>
+          <li><a href="../wissen/glossar.html">Glossar</a></li>
+          <li><a href="../wissen/faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="../ueber-uns.html">Über uns</a></li>
+          <li><a href="../karriere.html">Karriere</a></li>
+          <li><a href="tel:021616590729">02161 - 659 07 29</a></li>
+          <li><a href="mailto:info@cytec-mg.de">info@cytec-mg.de</a></li>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 CyTec Mönchengladbach GmbH &amp; Co. KG — hervorgegangen aus dem Prüfwerk Kessels</span>
+      <span>PED/TPED-zertifiziert · Made in Germany</span>
+    </div>
+  </div>
+</footer>
+</div>
+<script src="../assets/js/site.js"></script>
+<script src="../assets/js/fluid.js" data-loader="off"></script>
+</body>
+</html>
