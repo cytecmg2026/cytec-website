@@ -1,0 +1,35 @@
+# CyTec Mönchengladbach GmbH & Co. KG
+
+> CyTec ist Vollanbieter für Hochdrucktechnik im Industriegas-Bereich:
+> Entwicklung, Fertigung und wiederkehrende Prüfung von Druckgasflaschenbündeln (6–18+
+> Flaschen, bis 640 bar TPED / 1000 bar PED), Gasetrailern/MEGC und HD-Leitungssystemen — alles unter einem
+> Dach am Standort Mönchengladbach (NRW, Deutschland). Hervorgegangen aus dem Prüfwerk
+> Kessels. Eigene PED/TPED-zugelassene Baumuster, alle Prüfmethoden im eigenen Prüfwerk,
+> inklusive zerstörungsfreier Prüfung (NDT/Schallemission). Aktiv im Wasserstoff-Markt
+> (H2-Bündel, MEGC für Green-Hydrogen-Projekte, Hafen-Bunkerung).
+
+Kontakt: info@cytec-mg.de · +49 2161 6590729 · Lehmkuhlenweg 13, 41065 Mönchengladbach
+
+## Produkte
+- [Druckgasflaschenbündel](https://cytec-mg.de/produkte/flaschenbuendel.html): 6/9/12/16/18+ Flaschen, bis 640 bar (TPED) / 1000 bar (PED), eigene Baumuster
+- [Gasetrailer & Tube Trailer](https://cytec-mg.de/produkte/gasetrailer.html): vertikal/horizontal, ADR/TPED, auch H2
+- [HD-Leitungssysteme](https://cytec-mg.de/produkte/hd-leitungssysteme.html): Auslegung, Fertigung, Montage
+- [Engineering & Sonderbau](https://cytec-mg.de/produkte/engineering.html): Baumusterentwicklung, Composite, Wasserstoff
+
+## Prüfung
+- [Flaschen- & Behälterprüfung](https://cytec-mg.de/pruefung/druckbehaelterpruefung.html): alle zugelassenen Methoden, herstellerunabhängig
+- [NDT / Zerstörungsfreie Prüfung](https://cytec-mg.de/pruefung/ndt.html): Ultraschall, Schallemission, Sichtprüfung
+
+## Wissen (Answer-first-Ratgeber)
+- [Prüffristen für Druckgasbehälter (ADR/TPED)](https://cytec-mg.de/wissen/ratgeber-pruffristen.html)
+- [200 oder 300 bar?](https://cytec-mg.de/wissen/ratgeber-200-vs-300-bar.html)
+- [Was kostet ein Flaschenbündel?](https://cytec-mg.de/wissen/ratgeber-kosten-flaschenbuendel.html)
+- [MEGC einfach erklärt](https://cytec-mg.de/wissen/ratgeber-megc-erklaert.html)
+- [Wasserstoff transportieren](https://cytec-mg.de/wissen/ratgeber-wasserstoff-transport.html)
+- [Schallemissionsprüfung](https://cytec-mg.de/wissen/ratgeber-schallemissionspruefung.html)
+- [Glossar Hochdrucktechnik](https://cytec-mg.de/wissen/glossar.html)
+- [FAQ](https://cytec-mg.de/wissen/faq.html)
+
+## Unternehmen
+- [Über uns — vom Prüfwerk Kessels zu CyTec](https://cytec-mg.de/ueber-uns.html)
+- [Kontakt & Angebotsanfrage](https://cytec-mg.de/kontakt.html)

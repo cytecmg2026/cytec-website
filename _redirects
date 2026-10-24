@@ -1,0 +1,10 @@
+# Alte cytec-mg.de (WordPress) -> neue Struktur, 301 permanent
+/service/buendel/*                      /produkte/flaschenbuendel.html        301
+/service/trailer/*                      /produkte/gasetrailer.html            301
+/service/hd-leitungssysteme/*           /produkte/hd-leitungssysteme.html     301
+/service/engineering/*                  /produkte/engineering.html            301
+/service/flaschen-und-behaelter/*       /pruefung/druckbehaelterpruefung.html 301
+/service/ndt-non-destructive-testing/*  /pruefung/ndt.html                    301
+/service/*                              /index.html                           301
+/about-us/*                             /ueber-uns.html                       301
+/kontakt/                               /kontakt.html                         301

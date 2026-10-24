@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Kontakt & Angebotsanfrage | CyTec Mönchengladbach</title>
+<meta name="description" content="Angebot anfragen: Flaschenbündel, Gasetrailer, Prüfung. Qualifizierte Rückmeldung innerhalb von 48 Stunden.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/main.css">
+
+</head>
+<body>
+<canvas id="fluid"></canvas>
+<div id="glow"></div>
+<div id="progress"></div>
+<div id="page">
+
+<nav class="main" id="nav">
+  <div class="nav-inner">
+    <a class="logo" href="index.html"><img src="assets/media/cytec-logo.png" alt="CyTec Mönchengladbach — Cylinder Technologies"></a>
+    <ul class="nav-links" id="navlinks">
+      <li class="has-sub"><a href="#">Produkte ▾</a>
+        <ul class="sub">
+          <li class="subhead">Herstellung</li>
+          <li><a href="produkte/flaschenbuendel.html">Druckgasflaschenbündel</a></li>
+          <li><a href="produkte/gasetrailer.html">Gasetrailer / Tube Trailer</a></li>
+          <li><a href="produkte/hd-leitungssysteme.html">HD-Leitungssysteme</a></li>
+          <li><a href="produkte/engineering.html">Engineering &amp; Sonderbau</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#">Prüfung &amp; Service ▾</a>
+        <ul class="sub">
+          <li><a href="pruefung/druckbehaelterpruefung.html">Flaschen- &amp; Behälterprüfung</a></li>
+          <li><a href="pruefung/ndt.html">NDT — Zerstörungsfreie Prüfung</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#">Wissen ▾</a>
+        <ul class="sub">
+          <li><a href="wissen/news.html">News</a></li>
+          <li><a href="wissen/ratgeber.html">Ratgeber</a></li>
+          <li><a href="wissen/glossar.html">Glossar Hochdrucktechnik</a></li>
+          <li><a href="wissen/faq.html">FAQ</a></li>
+        </ul>
+      </li>
+      <li class="has-sub"><a href="#">Unternehmen ▾</a>
+        <ul class="sub">
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="index.html#usp">Warum CyTec</a></li>
+          <li><a href="karriere.html">Karriere</a></li>
+        </ul>
+      </li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+    <a class="btn small nav-cta" href="kontakt.html">Angebot anfragen</a>
+    <button id="burger" aria-label="Menü"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<header class="page-hero">
+  <div class="wrap">
+    <div class="breadcrumb"><a href="index.html">Start</a><span class="sep">/</span>Kontakt</div>
+    <div class="kicker">Anfrage · Rückruf · Beratung</div>
+    <h1>Ihr Projekt. <span class="accent">Unser Druck.</span></h1>
+    <p class="sub">Beschreiben Sie Ihre Anforderung — Sie erhalten innerhalb von 48 Stunden eine qualifizierte Rückmeldung unserer Ingenieure. Oder rufen Sie direkt an: 02161 - 659 07 29.</p>
+  </div>
+</header>
+<section class="section tight"><div class="wrap">
+  <div class="sec-head io"><div class="kicker">Angebotsanfrage</div><h2>In 2 Minuten zur qualifizierten Anfrage</h2>
+  <p>Je genauer Ihre Angaben, desto schneller unsere Antwort. Felder mit * sind Pflichtfelder.</p></div>
+  <form class="form-grid io" name="rfq" method="POST" action="/danke.html" data-netlify="true" netlify-honeypot="bot-field"><input type="hidden" name="form-name" value="rfq"><p style="display:none"><label>Nicht ausfüllen: <input name="bot-field"></label></p>
+    <div><label>Ich interessiere mich für *</label>
+      <select required name="interesse"><option>Druckgasflaschenbündel</option><option>Gasetrailer / Tube Trailer</option><option>HD-Leitungssysteme</option><option>Engineering / Sonderbau</option><option>Flaschen- &amp; Behälterprüfung</option><option>NDT / Zerstörungsfreie Prüfung</option></select></div>
+    <div><label>Gasart</label>
+      <select name="gasart"><option>Stickstoff (N₂)</option><option>Sauerstoff (O₂)</option><option>Argon (Ar)</option><option>CO₂</option><option>Wasserstoff (H₂)</option><option>Helium (He)</option><option>Medizin-/Spezialgase</option><option>verschiedene / unklar</option></select></div>
+    <div><label>Druckstufe</label>
+      <select name="druckstufe"><option>200 bar</option><option>300 bar</option><option>andere / unklar</option></select></div>
+    <div><label>Stückzahl / Umfang</label><input type="text" name="umfang" placeholder="z. B. 20 Bündel, 1 Trailer, Flotte mit 300 Flaschen"></div>
+    <div class="full"><label>Ihre Anforderung *</label><textarea required name="anforderung" rows="5" placeholder="Beschreiben Sie kurz Einsatzzweck, Zeitrahmen und Besonderheiten …"></textarea></div>
+    <div><label>Firma *</label><input type="text" name="firma" required></div>
+    <div><label>Ansprechpartner *</label><input type="text" name="ansprechpartner" required></div>
+    <div><label>E-Mail *</label><input type="email" name="email" required></div>
+    <div><label>Telefon</label><input type="tel" name="telefon"></div>
+    <div class="full"><button class="btn" type="submit">Anfrage senden</button></div>
+  </form>
+</div></section>
+<section class="section tight" style="background:rgba(14,16,19,.7)"><div class="wrap">
+  <div class="grid3">
+    <div class="io"><div class="kicker">Adresse</div><p style="color:var(--muted)">CyTec Mönchengladbach GmbH &amp; Co. KG<br>Lehmkuhlenweg 13<br>41065 Mönchengladbach</p></div>
+    <div class="io d1"><div class="kicker">Telefon</div><p style="color:var(--muted)"><a href="tel:021616590729">02161 - 659 07 29</a><br><a href="tel:021616590710">02161 - 659 07 10</a></p></div>
+    <div class="io d2"><div class="kicker">E-Mail</div><p style="color:var(--muted)"><a href="mailto:info@cytec-mg.de">info@cytec-mg.de</a></p></div>
+  </div>
+</div></section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <a class="logo" href="index.html"><img src="assets/media/cytec-logo.png" alt="CyTec Mönchengladbach — Cylinder Technologies"></a>
+        <p style="color:var(--muted);font-size:.9rem;margin-top:18px;max-width:32ch">CyTec Mönchengladbach GmbH &amp; Co. KG<br>Lehmkuhlenweg 13<br>41065 Mönchengladbach</p>
+      </div>
+      <div>
+        <h4>Produkte</h4>
+        <ul>
+          <li><a href="produkte/flaschenbuendel.html">Druckgasflaschenbündel</a></li>
+          <li><a href="produkte/gasetrailer.html">Gasetrailer / Tube Trailer</a></li>
+          <li><a href="produkte/hd-leitungssysteme.html">HD-Leitungssysteme</a></li>
+          <li><a href="produkte/engineering.html">Engineering &amp; Sonderbau</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Prüfung &amp; Wissen</h4>
+        <ul>
+          <li><a href="pruefung/druckbehaelterpruefung.html">Behälterprüfung</a></li>
+          <li><a href="pruefung/ndt.html">NDT-Prüfung</a></li>
+          <li><a href="wissen/ratgeber.html">Ratgeber</a></li>
+          <li><a href="wissen/glossar.html">Glossar</a></li>
+          <li><a href="wissen/faq.html">FAQ</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Unternehmen</h4>
+        <ul>
+          <li><a href="ueber-uns.html">Über uns</a></li>
+          <li><a href="karriere.html">Karriere</a></li>
+          <li><a href="tel:021616590729">02161 - 659 07 29</a></li>
+          <li><a href="mailto:info@cytec-mg.de">info@cytec-mg.de</a></li>
+          <li><a href="#">Impressum</a></li>
+          <li><a href="#">Datenschutz</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 CyTec Mönchengladbach GmbH &amp; Co. KG</span>
+      <span>PED/TPED-zertifiziert · Made in Germany</span>
+    </div>
+  </div>
+</footer>
+</div>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/fluid.js" data-loader="off"></script>
+</body>
+</html>
