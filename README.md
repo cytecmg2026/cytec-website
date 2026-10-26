@@ -19,3 +19,5 @@ assets/     — css, js (site.js = Effekte, fluid.js = Fluid-Hintergrund), media
 ```
 
 Betreut von Jörg Schröder Unternehmensberatung · geplanter Transfer an CyTec-eigene Konten.
+
+<!-- Deploy-Anstoss nach Umstellung auf public -->
