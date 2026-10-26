@@ -1,3 +1,9 @@
+# Zweitdomain cytec-arn.de -> Hauptdomain, dauerhaft (301), inkl. aller Unterseiten
+https://cytec-arn.de/*        https://cytec-mg.de/:splat  301!
+https://www.cytec-arn.de/*    https://cytec-mg.de/:splat  301!
+http://cytec-arn.de/*         https://cytec-mg.de/:splat  301!
+http://www.cytec-arn.de/*     https://cytec-mg.de/:splat  301!
+
 # Alte cytec-mg.de (WordPress) -> neue Struktur, 301 permanent
 /service/buendel/*                      /produkte/flaschenbuendel.html        301
 /service/trailer/*                      /produkte/gasetrailer.html            301
